@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.input-field, .input-from-to {
+    width: 100%;
+    height: 150px;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #444059;
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    resize: none;
+}
+
+.input-field::placeholder, .input-from-to::placeholder {
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-from-to {
+    width: 100%;
+    height: 50px;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #444059;
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    resize: none;
+}
+
+.publish-btn {
+    width: 100%;
+    height: 60px;
+    color: #04131C;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #28A9F1;
+    margin: 5px;
+    border: none;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul li {
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    background: #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+}
+
+.endorsements-list {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (max-width: 768px) {
+    .input-from-to {
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
+.bold-text {
+    font-weight: 700;
+}
